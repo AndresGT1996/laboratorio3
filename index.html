@@ -4,66 +4,120 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sobre mi</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css" rel="stylesheet">
 </head>
 <body>
-    <h1>Perfil Personal</h1>
-    <h2>Objetivo de la pagina</h2>
-    <p>Durante la presente pagina se expondra el perfil personal de Andres Gonzalez, según lo requerido en el laboratorio numero 1 de el programa de talento tech</p>
 
-    <h2>Presentación personal</h2>
-    <p>Mi nombre es Andrés González, soy una persona activa, que siempre esta intentando aprender cosas nuevas y proponiendose metas a corto y mediano plazo, soy psicologo, tengo actualmente 28 años de edad y estoy intentando formarme como desarrollador web para lograr buscar nuevos horizontes laborales.</p>
+    <header>
+        <h1>Perfil Personal</h1>
+    </header>
+     
+    <main>
+        <div class="objetivo-pagina-princi">
+            <div class="objetivo-pagina">
+                <h2>Objetivo de la pagina</h2>
+                <p>Durante la presente pagina se expondra el perfil personal de Andres Gonzalez, según lo requerido en el laboratorio numero 1 de el programa de talento tech</p>
+            </div>
+        </div>
+        <section class="section-presentacion-personal">
+            <div class="section-presentacion-personal-h2-p">
+                <h2>Presentación personal</h2>
+                <p>Mi nombre es Andrés González, soy una persona activa, que siempre esta intentando aprender cosas nuevas y proponiendose metas a corto y mediano plazo, soy psicologo, tengo actualmente 28 años de edad y estoy intentando formarme como desarrollador web para lograr buscar nuevos horizontes laborales.</p>
+            </div>
+           
+            <div class="section-presentacion-personal-img-a">
+                <img src="./img/AndresGonzalez.jpg" alt="Andres González">
+                <div>
+                    <a href="https://www.facebook.com/"> <i class="ri-facebook-circle-fill"></i></a>
+            
+                    <a href="https://www.instagram.com/"><i class="ri-instagram-fill"></i></a>
+                </div>
+             
+            </div>
+          
+            
+        </section>
+       
+        <section class="section2">
+            <div class="listas-section2">
 
-    <img src="./img/AndresGonzalez.jpg" alt="Andres González">
-
-    <a href="https://www.facebook.com/"> Facebook</a>
-
-    <a href="https://www.instagram.com/">Instagram</a>
-    
-    <h3>Temas de interes</h3>
-    <ul>
-        <li>Futbol</li>
-        <li>Finanzas</li>
-        <li>Tecnologia</li>
-    </ul>
-
-    <h3>Tareas pendietes</h3>
-    <ol>
-        <li>Estudiar Programación</li>
-        <li>Motilarme</li>
-        <li>Lavar el carro</li>
-    </ol>
-
-    <table>
-        <tr>
-            <th>Lunes</th>
-            <th>Martes</th>
-            <th>Miercoles</th>
-            <th>Jueves</th>
-            <th>Viernes</th>
-            <th>Sabado</th>
-            <th>Domingo</th>
-        </tr>
-        <tr>
-            <td>Lavar el carro</td>
-            <td>Estudiar Programación</td>
-            <td>Estudiar Programació</td>
-            <td>Estudiar Programació</td>
-            <td>Estudiar Programació</td>
-            <td>Estudiar Programació</td>
-            <td>Motilarme</td>
-        </tr>
-    </table>
-
-    <form>
-        <label for="nombre">Nombre</label>
-        <input type="text" id="nombre">
-        <label for="email">Email</label>
-        <input type="email" id="email">
-        <button type="submit">Enviar</button>
+             <div>
+                <h3>Temas de interes</h3>
+                <ul>
+                    <li>Futbol</li>
+                    <li>Finanzas</li>
+                    <li>Tecnologia</li>
+                </ul>
+             </div>   
+           
+             <div>
+                <h3>Tareas pendietes</h3>
+                <li>Estudiar Programación</li>
+                <li>Motilarme</li>
+                <li>Lavar el carro</li>
+            </ol> 
+         
+             </div>
+          
       
+            </div>
+            
 
 
-    </form>
+            <div class="section2-tablas">
+               
+                    <table>
+                        <tr>
+                            <th>Lunes</th>
+                            <th>Martes</th>
+                            <th>Miercoles</th>
+                            <th>Jueves</th>
+                            <th>Viernes</th>
+                            <th>Sabado</th>
+                            <th>Domingo</th>
+                        </tr>
+                        <tr>
+                            <td>Lavar el carro</td>
+                            <td>Estudiar Programación</td>
+                            <td>Estudiar Programació</td>
+                            <td>Estudiar Programació</td>
+                            <td>Estudiar Programació</td>
+                            <td>Estudiar Programació</td>
+                            <td>Motilarme</td>
+                        </tr>
+                    </table> 
+        
+                    
+          
+               
+            </div>
+            
+
+        </section>
+       
+       <section class="section3">
+
+
+            <form>
+                <label for="nombre">Nombre <input type="text" id="nombre"></label>
+                
+                <label for="apellid">Apellido    <input type="text" id="apellido"></label>
+             
+                <label for="email">Email <input type="email" id="email"></label>
+                
+                <textarea name="" id="" rows="7" cols="5"></textarea>
+                <button type="submit">Enviar</button>
+              
+            </form>
+
+    
+
+       </section>
+    
+   
+    </main>
+   
 
 </body>
 </html>
